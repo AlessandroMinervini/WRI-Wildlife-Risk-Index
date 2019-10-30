@@ -59,7 +59,7 @@ def compute_C2(data, birdstrike):
     fauna_table = {'27' : 25, '2' : 20, '1' : 20, '1440' : 20, '3' : 20, '34' : 20, '7' : 15, '1121' : 15, '38': 15,
                    '36' : 15, '1447' : 15, '1253' : 10, '14' : 5, '13' : 5, '15' : 5, '25' : 10, '64':5,
                    '12' : 5, '995' : 5, '40' : 5, '476' : 5}
-    av_risk = 5
+    av_risk = 15 # risk value for species out of the fauna_table 
     C2 = 0
 
     ''' Compute C2 '''
